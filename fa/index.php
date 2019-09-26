@@ -488,18 +488,16 @@
 
             <div class="download-button">
                 <div class"row">
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-md-4">
                         <a class="btn btn-info btn-md" href="#contact"><i class="fa fa-paper-plane"></i>ارسال پیام</a>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+    
+                    <div class="col-md-4">
+                        <a class="btn btn-primary btn-md" href="../resume/fa"><i class="fa fa-eye"></i>مشاهده رزومه من</a>
+                    </div>
+                    <div class="col-md-4">
                         <a class="btn btn-primary btn-md" href="../resume/fa/resume2019.pdf"><i class="fa fa-download"></i>دانلود رزومه من</a>
                     </div>
-    
-                    <div class="col-sm-12 col-md-4">
-                        <a class="btn btn-primary btn-md" href="../resume/fa"><i class="fa fa-eye"></i>مشاهده رزومه من</a>
-                    
-                    </div>
-
 
                 
                 </div>
