@@ -1,0 +1,16 @@
+.rtl{
+    direction: rtl;
+}
+.flags{
+    width:23px;
+    height:15px;
+    border-radius: 3px;
+
+    /*-webkit-transition: all 3000ms;*/
+    /*-moz-transition: all 3000ms;*/
+    /*-o-transition: all 3000ms;*/
+    /*transition: all 3000ms;*/
+}
+h1, h2{
+    line-height: 100%;
+}

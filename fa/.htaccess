@@ -1,0 +1,9 @@
+#Options +FollowSymLinks
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{REMOTE_ADDR} !^91\.98\.203\.75
+##RewriteCond %{REMOTE_ADDR} !^192\.168\.137\.1
+#RewriteCond %{REQUEST_URI} !^/503/php [NC]
+##RewriteRule .* /503.php [L,R]
+#RewriteCond %{REQUEST_URI} !errors/construction.html
+#RewriteRule .* /errors/construction.html [R=302,L]

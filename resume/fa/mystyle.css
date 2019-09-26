@@ -1,0 +1,22 @@
+/*@font-face {*/
+    /*font-family: "Gideas Font-face Demo";*/
+    /*font-weight: normal;*/
+    /*src: local("âک؛"), url("fonts/thickTitleFont.ttf") format("truetype");*/
+/*}*/
+
+#font-face-arabic-text-title
+{
+    margin:auto;
+    width:400px;
+    font: 150% 'Gideas Font-face Demo','Simplified Arabic';
+    color:blue;
+    font-size:40px;
+    direction:rtl;
+}
+/*html{*/
+    /*direction: rtl;*/
+/*}*/
+
+h1, h2{
+    padding-bottom: 1em;
+}

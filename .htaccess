@@ -1,0 +1,27 @@
+RewriteEngine On
+# RewriteCond %{HTTPS} !on
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteRule ^link/([A-Za-z0-9-]+)/?$ links/link.php?id=$1 [NC,L]
+RewriteRule ^embed/([A-Za-z0-9-]+)/?$ links/embed.php?id=$1 [NC,L]
+# RewriteRule ^linkInsert/([A-Za-z0-9-]+)/?$ linkInsert.php?id=$1 [NC,L]
+
+# RewriteEngine On
+
+# # RewriteBase /
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+
+# RewriteCond %{REQUEST_FILENAME} !-d
+
+# RewriteRule .* index.php
+
+ErrorDocument 404 /errors/not-found-page2.html
+ErrorDocument 403 /errors/laser.html
+ErrorDocument 503 /errors/notPermittedAccess.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

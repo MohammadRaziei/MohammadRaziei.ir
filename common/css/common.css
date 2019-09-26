@@ -1,0 +1,24 @@
+		.ltr{
+			direction: ltr!important;
+        }
+		.rtl{
+             direction: rtl!important;
+        }
+		.ltrc *{
+			direction: ltr!important;
+        }
+		.rtlc *{
+             direction: rtl!important;
+        }
+        
+		.fl{float: left;}.fr{float: right;}
+        .flc *{float: left;}
+        .frc *{float: right;direction: rtl;}
+        ::selection, ::-moz-selection{
+            background-color :aquamarine;
+            border-radius: 5px;
+        }
+        :root{
+             text-align: justify;
+
+        }
