@@ -288,13 +288,15 @@
 
           <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
 
-          <li><a target=_blank href="mailto:mohammadraziei1375@gmail.com?&subject=Contact%20Us&body=Sent%20from%20https://mohammadraziei.ml/fa"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+          <li><a target=_blank href="mailto:mohammadraziei1375@gmail.com?&subject=Contact%20Us&body=Sent%20from%20https://mohammadraziei.ir/fa"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 
           <li><a target=_blank href="https://t.me/mohammadraziei"><i class="fa fa-telegram"></i></a></li>
 
           <li><a target=_blank href="https://www.linkedin.com/in/mohammad-raziei-595515134"><i class="fa fa-linkedin"></i></a></li>
+            
+          <li><a target=_blank href="https://github.com/mohammadraziei"><i class="fa fa-github"></i></a></li>
 
-          <li><a target=_blank href="https://www.behance.net/mohammadra3017"><i class="fa fa-behance"></i></a></li>
+<!--          <li><a target=_blank href="https://www.behance.net/mohammadra3017"><i class="fa fa-behance"></i></a></li>-->
 
         </ul>
 
@@ -398,7 +400,7 @@
 
 
 
-          <div class="col-md-4 col-md-push-8">
+          <div class="col-sm-4 col-md-push-8">
 
             <div class="biography">
 
@@ -430,7 +432,7 @@
 
 
 
-          <div class="col-md-8 col-md-pull-4">
+          <div class="col-sm-8 col-md-pull-4">
 
             <div class="short-info wow fadeInUp rtl">
 
@@ -485,10 +487,22 @@
 
 
             <div class="download-button">
+                <div class"row">
+                    <div class="col-sm-6 col-md-4">
+                        <a class="btn btn-info btn-md" href="#contact"><i class="fa fa-paper-plane"></i>ارسال پیام</a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="btn btn-primary btn-md" href="../resume/fa/resume2019.pdf"><i class="fa fa-download"></i>دانلود رزومه من</a>
+                    </div>
+    
+                    <div class="col-sm-12 col-md-4">
+                        <a class="btn btn-primary btn-md" href="../resume/fa"><i class="fa fa-eye"></i>مشاهده رزومه من</a>
+                    
+                    </div>
 
-              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>ارسال پیام</a>
 
-              <a class="btn btn-primary btn-lg" href="../resume/fa"><i class="fa fa-download"></i>مشاهده رزومه من</a>
+                
+                </div>
 
             </div>
 
@@ -1943,8 +1957,6 @@
           <div class="col-md-12">
 
             <div class="copyright text-center">
-
-              <p>&copy; TrendyTheme 2015. All rights reserved.</p>
 
             </div>
 
